@@ -1,6 +1,6 @@
 # Ember-cli-place-cage
 
-An Ember wrapper for [PlaceCage](http://www.placecage.com/). 
+An Ember wrapper for [PlaceCage](http://www.placecage.com/)! Thanks to [@davecowart](https://twitter.com/davecowart) for creating the website and to Nicolas Cage for being born. 
 
 ## Installation
 
