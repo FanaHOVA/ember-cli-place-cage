@@ -1,6 +1,6 @@
 # Ember-cli-place-cage
 
-An Ember wrapper for PlaceCage. 
+An Ember wrapper for [PlaceCage](http://www.placecage.com/). 
 
 ## Installation
 
