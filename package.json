@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-place-cage",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.3",
+  "description": "Ember wrapper for http://www.placecage.com/ | Credits to @davecowart for the images!",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -40,7 +40,9 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.0.0"
+    "ember-cli-babel": "^5.0.0",
+    "ember-cli-htmlbars": "0.7.9"
+
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
