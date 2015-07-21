@@ -1,25 +1,24 @@
 # Ember-cli-place-cage
 
-This README outlines the details of collaborating on this Ember addon.
+An Ember wrapper for PlaceCage. 
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `npm install ember-cli-place-cage`
 
-## Running
+## Usage
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+The place-cage component will create an <img> tag in your template with the desired image:
 
-## Running Tests
+* `{{place-cage width=300 height=300 style='c'}}`
+ 
+Width and height are self-descriptive. The style tag has 4 options:
 
-* `ember test`
-* `ember test --server`
+* '' will give you a normal Nicolas Cage photo (If there's even such a thing)
+* 'g' will give you a deeply moving and emotional black and white Nicolas Cage photo
+* 'c' will show you a crazy photo of our hero Nicolas Cage
+* 'gif' will bring Nicolas Cage to life in your app (Run at your own risk)
 
-## Building
+## TODO
 
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+* Add Nicolas Cage quotes for 'alt' attribute
